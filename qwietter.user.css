@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name         Qwiet-ter
+@version      1
+@namespace    userstyles.world/user/ersgonzo
+@description  Makes Twitter a lot more quiet.
+@author       ersgonzo
+@license      No License
+@homepageURL  https://github.com/ersgonzalo/qwiet-ter
+@supportURL   https://github.com/ersgonzalo/qwiet-ter/issues
+
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+  /* Removes the Replies icon section from your Newsfeed */
+  [data-testid="reply"] {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* Remove the Replies after "Tweet your reply" */
+  [aria-label="Timeline: Conversation"] > * > *:not(:first-child) {
+      display: none;
+      visibility: hidden;
+  }
+}
