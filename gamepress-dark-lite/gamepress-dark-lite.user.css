@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name         Gamepress Dark-lite
+@version      1
+@namespace    userstyles.world/user/ersgonzo
+@description  Makes Gamepress less jarring on the eyes. Warning: May not work on all gamepress sub-sites!
+@author       ersgonzo
+@license      No License
+@homepageURL  https://github.com/ersgonzalo/eg-user-styles/gamepress-dark-lite
+@supportURL   https://github.com/ersgonzalo/eg-user-styles/issues
+
+==/UserStyle== */
+
+/**
+ * Branched off of Griffnelle's work from: 
+ * https://userstyles.org/styles/173780/dragalia-lost-gamepress-gamepedia-dark-theme 
+*/
+@-moz-document domain("gamepress.gg") {
+  html
+  {
+      filter: invert(0.95) hue-rotate(180deg);
+      -webkit-filter: invert(0.95) hue-rotate(180deg);
+      -moz-filter: invert(0.95) hue-rotate(180deg);
+      -ms-filter: invert(0.95) hue-rotate(180deg);
+      -o-filter: invert(0.95) hue-rotate(180deg);
+      background: black;
+  }
+
+  img, embed, video, canvas, iframe, svg, span.Emoticon, span.emoji, i.emoji
+  {
+      filter: invert(1) hue-rotate(180deg) !important;
+      -webkit-filter: invert(1) hue-rotate(180deg) !important;
+      -moz-filter: invert(1) hue-rotate(180deg) !important;
+      -ms-filter: invert(1) hue-rotate(180deg) !important;
+      -o-filter: invert(1) hue-rotate(180deg) !important;
+  }
+
+  /* Targets Modal when clicking a character */
+  #gp-tier-modal{
+      background-color: rgba(255, 246, 246, 0.9) !important; 
+  }
+
+  /* Targets Background Images on pages like here: https://gamepress.gg/grandorder/bond-points-and-bond-experience-farming*/
+  td[align="center"] > a > div.container {
+      filter: invert(1) hue-rotate(180deg) !important;
+  }
+}
