@@ -15,7 +15,6 @@ This is a **user stylesheet** that gets applied to a website thanks to a **users
 
 1.  Using a userstyle manager that supports installing UserCSS stylesheets (see **Prerequisites**), open the raw file within the browser by clicking on the next link.
     :package: [Install the userCSS](https://github.com/ersgonzalo/eg-user-styles/raw/master/gamepress-dark-lite/gamepress-dark-lite.user.css)
-
 2.  The userstyle manager will open the stylesheet. The sidebar on the left will have an **Install Style** button to install the user style. Below is a checkbox to receive updates. Leave it checked to automatically receive the updated stylesheet whenever I make changes because Twitter changed their code and broke the stylesheet.
 3.  Click on the **Install Style** button to install the user style in your browser.
 4.  Reload your Twitter timeline and enjoy the (slightly increased) peace and quiet!
