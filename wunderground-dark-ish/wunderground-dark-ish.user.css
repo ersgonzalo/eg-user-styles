@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Wunderground Dark-ish
-@version      1.1
+@version      1.2
 @namespace    userstyles.world/user/ersgonzo
 @description  Makes Wunderground's UI less jarring on the eyes
 @author       ersgonzo
@@ -16,8 +16,7 @@
   }
 
   img,
-  span.sun-icon,
-  span.moon-icon{
+  svg.icon{
       filter:invert(1) !important;
   }
 
