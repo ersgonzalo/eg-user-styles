@@ -25,7 +25,7 @@
       background: black;
   }
 
-  img, embed, video, canvas, iframe, svg, span.Emoticon, span.emoji, i.emoji
+  img, embed, video, canvas, iframe, svg, span.Emoticon, span.emoji, i.emoji, .embedqty-quest-drop-item-img
   {
       filter: invert(1) hue-rotate(180deg) !important;
       -webkit-filter: invert(1) hue-rotate(180deg) !important;
